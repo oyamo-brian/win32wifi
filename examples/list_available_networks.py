@@ -24,8 +24,8 @@ import sys
 
 sys.path.append('../')
 
-from Win32Wifi import getWirelessInterfaces
-from Win32Wifi import getWirelessAvailableNetworkList
+from win32wifi import getWirelessInterfaces
+from win32wifi import getWirelessAvailableNetworkList
 
 if __name__ == "__main__":
     ifaces = getWirelessInterfaces()
