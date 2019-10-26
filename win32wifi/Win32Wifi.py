@@ -31,7 +31,7 @@ from comtypes import GUID
 from win32wifi.Win32NativeWifiApi import *
 
 NULL = None
-
+#
 class WirelessInterface(object):
     def __init__(self, wlan_iface_info):
         self.description = wlan_iface_info.strInterfaceDescription
